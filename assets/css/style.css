@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    background-color: lightgoldenrodyellow;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.nav__brand-logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.container {
+    width: 95%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.aling-items-center {
+    align-items: center;
+}
+
+.gap-100 {
+    gap: 1rem;
+}
+
+.pad-b-100 {
+    padding-bottom: 1rem;
+}
+.pad-b-200 {
+    padding-bottom: 2rem;
+}
+.pad-b-300 {
+    padding-bottom: 3rem;
+}
+
+.pad-y-200 {
+    padding: 2rem 0;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: rgb(129, 129, 107);
+}
+
+a.active {
+    font-weight: bold;
+}
